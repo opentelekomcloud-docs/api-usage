@@ -19,7 +19,6 @@ import sys
 
 extensions = [
     'otcdocstheme',
-    'otc_sphinx_directives'
 ]
 
 otcdocs_auto_name = False
@@ -30,10 +29,10 @@ otcdocs_repo_name = 'opentelekomcloud-docs/api-usage'
 # Those variables are required for edit/bug links
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = ''
-otcdocs_doc_link = ''
-otcdocs_doc_title = ''
-otcdocs_doc_type = ''
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/api-usage/guidelines/'
+otcdocs_doc_title = 'API Usage Guidelines'
+otcdocs_doc_type = 'guidelines'
 otcdocs_service_category = 'other'
 otcdocs_service_title = 'API Usage'
 otcdocs_service_type = 'apiu'
@@ -93,7 +92,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "API Usage - Service Based View"
+html_title = "API Usage - API Usage Guidelines"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -105,4 +104,9 @@ html_static_path = ['_static']
 html_copy_source = False
 
 # -- Options for PDF output --------------------------------------------------
-latex_documents = []
+latex_documents = [
+    ('index',
+     'apiu-guidelines.tex',
+     u'API Usage - API Usage Guidelines',
+     u'OpenTelekomCloud', 'manual'),
+]
