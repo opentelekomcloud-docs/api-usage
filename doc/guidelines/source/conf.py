@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'apiu-guidelines.tex',
-     u'API Usage - API Usage Guidelines',
+    u'API Usage - API Usage Guidelines',
      u'OpenTelekomCloud', 'manual'),
 ]
 
