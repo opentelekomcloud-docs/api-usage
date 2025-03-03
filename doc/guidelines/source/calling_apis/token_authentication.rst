@@ -22,7 +22,7 @@ Procedure
    A cloud service can be deployed globally or at the project level.
 
    -  A project-level service requires a project-level token. When you call the API, set **auth.scope** in the request body to **project**. The following services are at the project level: AOM, APIG, AS, BMS, CBR, CCE, Cloud Eye, CSBS, CSS, CTS, DataArts Studio, DC, DCS, DDS, Dedicated WAF, DeH, DIS, DLI, DMS, DNS, DRS, DWS, ECS, EIP, ELB, EVS, GaussDB (for MySQL), GaussDB NoSQL, IMS, KMS, LTS, ModelArts, MRS, NAT, PLAS, RDS, RTS, SDRS, SFS, SMN, SWR, VBS, VPC, VPCEP, VPN, and WAF.
-   -  A global service requires a global token. When you call the API, set **auth.scope** in the request body to **domain**. The following services are global ones: Anti-DDoS, IAM, OBS, TMS, and TMS.
+   -  A global service requires a global token. When you call the API, set **auth.scope** in the request body to **domain**. The following services are global ones: Anti-DDoS, IAM, OBS, and TMS.
 
    The following shows an example of a project-level service request:
 
